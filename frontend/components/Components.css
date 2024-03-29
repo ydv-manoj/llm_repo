@@ -1,0 +1,26 @@
+.markdown_comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.markdown_comp table thead{
+    font-size: 15px;
+    padding: 10px;
+    border:1px solid black;
+}
+.markdown_comp table thead tr th{
+    border:1px solid black;
+
+}
+.markdown_comp table tr td{
+    border-color: red;
+    padding: 10px;
+    border:1px solid black;
+}
+.markdown_comp p{
+    font-size: 15px;
+    margin: 5px;
+    padding:10px;
+    word-spacing: 3px;
+}

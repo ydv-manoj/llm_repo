@@ -107,7 +107,7 @@ class TerraDX_GPT():
             - After completing the calculations, review each step and the final answer for accuracy.
             - Provide the final answer and confirm it by rechecking the calculations.
             - Use clear and concise language to explain the reasoning behind each step and the significance of the final answer.
-            - Give full response in HTML format with backticks firstly comprising of a p tag with numbering or li's tag for each step of information then a table if answer requires a table followed by p tag or li's stating conclusion and nothing else.
+            - give 2 line spacing between every point.
              
             example:
             "Calculate the total cost of 5 items priced at $3.50, $4.75, $2.00, $8.25, and $6.50, including a 5% sales tax."
