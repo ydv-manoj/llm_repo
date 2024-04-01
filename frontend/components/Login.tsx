@@ -9,7 +9,7 @@ function Login({}: Props) {
   return (
     <div className="bg-[#11A37F] h-screen flex flex-col items-center justify-center text-center">
       <img
-        src="https://drive.google.com/uc?export=download&id=1mxgawX_xUIKrIgiOpOb1MTwt8l2fXTaL"
+        src="https://upload.wikimedia.org/wikipedia/commons/1/13/ChatGPT-Logo.png"
         alt="logo"
         className="w-96"
       />

@@ -42,7 +42,7 @@ export default async function handler(
       name: "ChatGPT",
       email: "ChatGPT",
       avatar:
-        "https://drive.google.com/uc?export=download&id=1ikaBBU-OsBSHkleHQmf15ww0vgX-A0Kz",
+        "https://oddblogger.com/wp-content/uploads/2023/05/ChatGPT-Logo-PNG-1.png",
     },
   };
 

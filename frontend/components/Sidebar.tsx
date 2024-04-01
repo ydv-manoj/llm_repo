@@ -28,7 +28,7 @@ function Sidebar({}: Props) {
         <div>
           <NewChat session={session} />
           <div className="hidden sm:inline">
-            <ModelSelection />
+            {/* <ModelSelection /> */}
           </div>
           <div className="flex flex-col space-y-2 my-2">
             {loading && (

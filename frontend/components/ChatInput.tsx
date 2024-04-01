@@ -82,8 +82,8 @@ function ChatInput({ chatId }: Props) {
   };
 
   return (
-    <div className="bg-gray-700/50 text-gray-400 rounded-lg text-sm">
-      <form onSubmit={generateResponse} className="p-5 space-x-5 flex">
+    <div className=" text-gray-400 rounded-lg text-sm flex justify-center my-3">
+      <form onSubmit={generateResponse} className="p-3 space-x-5 flex w-3/4  border border-white-600 rounded-md">
         <input
           type="text"
           placeholder="Type your message here..."
@@ -139,9 +139,6 @@ function ChatInput({ chatId }: Props) {
           </button>
         )}
       </form>
-      <div className="md:hidden">
-        <ModelSelection />
-      </div>
     </div>
   );
 }
